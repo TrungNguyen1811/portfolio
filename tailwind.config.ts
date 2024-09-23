@@ -23,10 +23,10 @@ const config: Config = {
 	},
   	extend: {
   		colors: {
-  			primary: '#1a2c32',
+  			primary: '#331f15',
   			accent: {
-				DEFAULT: '#438e96',
-				hover: '#3b757f'
+				DEFAULT: '#cbb26a',
+				hover: '#f8f6ee'
 			}
   		},
   		borderRadius: {
@@ -36,6 +36,7 @@ const config: Config = {
   		}
   	}
   },
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
   plugins: [require("tailwindcss-animate")],
 };
 export default config;

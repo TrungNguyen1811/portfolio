@@ -43,13 +43,13 @@ const Photo = () => {
             y="2"
             width="385"
             height="497"
-            stroke="#3b757f"
+            stroke="#e1d4a7"
             strokeWidth="4"
             strokeLinecap="round"
             strokeLinejoin="round"
             initial={{ strokeDasharray: "30 70" }}
             animate={{
-              strokeDasharray: ["30 120", "60 240", "120 320"],
+              strokeDasharray: ["60 120", "60 240", "120 320"],
               rotate: [0, 0],
             }}
             transition={{
