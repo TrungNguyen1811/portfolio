@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperClass, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { BsArrowUpRight, BsGithub } from "react-icons/bs";
 import { useState } from "react";
@@ -94,7 +94,7 @@ const projects = [
 ];
 const Work = () => {
   const [project, setProject] = useState(projects[0]);
-  const handleSlideChange = (swiper) => {
+  const handleSlideChange = (swiper: SwiperClass) => {
     const currentIndex = swiper.activeIndex;
     setProject(projects[currentIndex]);
   };
