@@ -4,19 +4,19 @@ import { FaGithub, FaFacebook, FaDiscord, FaLinkedin } from "react-icons/fa";
 const socials = [
   {
     icon: <FaGithub />,
-    path: "",
+    path: "https://github.com/TrungNguyen1811",
   },
   {
     icon: <FaFacebook />,
-    path: "",
+    path: "https://www.facebook.com/trungnguyen1811",
   },
   {
     icon: <FaDiscord />,
-    path: "",
+    path: " https://discordapp.com/users/814189282100772864",
   },
   {
     icon: <FaLinkedin />,
-    path: "",
+    path: "https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile",
   },
 ];
 const Socials = ({

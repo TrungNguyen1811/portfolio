@@ -207,7 +207,13 @@ const Resume = () => {
                         className="flex items-center justify-center xl:justify-start gap-4"
                       >
                         <span className="text-white/60">{item.fieldName}</span>
-                        <span className="text-xl">{item.filedValue}</span>
+                        {item.fieldName === "Facebook" ? (
+                          <a href="https://www.facebook.com/trungnguyen1811">
+                            <span className="text-xl">{item.filedValue}</span>{" "}
+                          </a>
+                        ) : (
+                          <span className="text-xl">{item.filedValue}</span>
+                        )}
                       </li>
                     );
                   })}

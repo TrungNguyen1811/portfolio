@@ -31,7 +31,7 @@ const projects = [
       { name: "React" },
       { name: "Typescript,..." },
     ],
-    image: "/asset/photo-portfolio.png",
+    image: "/asset/b-connect.png",
     live: "https://b-connect.vercel.app/",
     github: "https://github.com/TrungNguyen1811/b-connect",
   },
@@ -50,7 +50,7 @@ const projects = [
       { name: "React" },
       { name: "Typescript,..." },
     ],
-    image: "/asset/photo-portfolio.png",
+    image: "/asset/b-rental.png",
     live: "https://book-rent-liart.vercel.app/",
     github: "https://github.com/blackmouse572/book-rent",
   },
@@ -68,7 +68,7 @@ const projects = [
       { name: "Typescript" },
       { name: "PostgresSQL,..." },
     ],
-    image: "/asset/photo-portfolio.png",
+    image: "/asset/dashboard-next.png",
     live: "https://next-js-dashboard-dsut.vercel.app/",
     github: "https://github.com/TrungNguyen1811/NextJsDashboard",
   },
@@ -87,7 +87,7 @@ const projects = [
       { name: "NextJs" },
       { name: "Typescript,..." },
     ],
-    image: "/asset/photo-portfolio.png",
+    image: "/asset/portfolio.png",
     live: "https://portfolio-ntd.vercel.app/",
     github: "https://github.com/TrungNguyen1811/portfolio",
   },
@@ -178,7 +178,7 @@ const Work = () => {
                       <div className="relative w-full h-full">
                         <Image
                           src={project.image}
-                          className="object-cover"
+                          className="object-contain"
                           alt=""
                           fill
                         />
