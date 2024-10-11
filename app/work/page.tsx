@@ -40,7 +40,7 @@ const projects = [
     category: "Front-end",
     title: "BRental Website",
     description:
-      "a web application that allows users to register, rent and return books online easily and conveniently.",
+      "A web application that allows users to register, rent and return books online easily and conveniently.",
     stack: [
       { name: "Html" },
       { name: "Postcss" },
@@ -58,8 +58,7 @@ const projects = [
     num: "03",
     category: "Front-end",
     title: "NextJs Dashboard",
-    description:
-      "a web application that allows users to register, rent and return books online easily and conveniently.",
+    description: "Building a simplified version of the financial dashboard.",
     stack: [
       { name: "Html" },
       { name: "Css" },
@@ -76,7 +75,8 @@ const projects = [
     num: "04",
     category: "Front-end",
     title: "Portfolio",
-    description: "Portfolio.",
+    description:
+      "A portfolio is a compilation of academic and professional materials that exemplifies your beliefs, skills, qualifications, education, training, and experiences. It provides insight into my personality and work ethic.",
     stack: [
       { name: "Html" },
       { name: "Css" },
@@ -90,6 +90,26 @@ const projects = [
     image: "/asset/portfolio.png",
     live: "https://portfolio-ntd.vercel.app/",
     github: "https://github.com/TrungNguyen1811/portfolio",
+  },
+  {
+    num: "05",
+    category: "Full-stack",
+    title: "Charity",
+    description: "Charity.",
+    stack: [{ name: "Html" }, { name: "Css" }, { name: "Java,..." }],
+    image: "/asset/charity-website.png",
+    live: "",
+    github: "",
+  },
+  {
+    num: "06",
+    category: "Full-stack",
+    title: "E-learning",
+    description: "E-learning.",
+    stack: [{ name: "Html" }, { name: "Css" }, { name: "Java,..." }],
+    image: "/asset/e-learning.png",
+    live: "",
+    github: "",
   },
 ];
 const Work = () => {
