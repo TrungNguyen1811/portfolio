@@ -57,6 +57,26 @@ const projects = [
   {
     num: "03",
     category: "Front-end",
+    title: "Messenger Clone",
+    description:
+      "Developed a real-time messaging web application that allows users to send and receive messages instantly, supporting one-on-one and group chats with real-time updates.",
+    stack: [
+      { name: "Html" },
+      { name: "Css" },
+      { name: "Tailwindcss" },
+      { name: "NextJs" },
+      { name: "Typescript" },
+      { name: "Pusher" },
+      { name: "Prisma" },
+      { name: "MongoDB,..." },
+    ],
+    image: "/asset/messenger.png",
+    live: "https://messenger-clone-sigma.vercel.app/",
+    github: "https://github.com/TrungNguyen1811/messenger-clone",
+  },
+  {
+    num: "04",
+    category: "Front-end",
     title: "NextJs Dashboard",
     description: "Building a simplified version of the financial dashboard.",
     stack: [
@@ -72,7 +92,7 @@ const projects = [
     github: "https://github.com/TrungNguyen1811/NextJsDashboard",
   },
   {
-    num: "04",
+    num: "05",
     category: "Front-end",
     title: "Portfolio",
     description:
@@ -92,7 +112,7 @@ const projects = [
     github: "https://github.com/TrungNguyen1811/portfolio",
   },
   {
-    num: "05",
+    num: "06",
     category: "Full-stack",
     title: "Charity",
     description: "Charity.",
@@ -102,7 +122,7 @@ const projects = [
     github: "",
   },
   {
-    num: "06",
+    num: "07",
     category: "Full-stack",
     title: "E-learning",
     description: "E-learning.",
