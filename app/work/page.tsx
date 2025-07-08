@@ -32,8 +32,8 @@ const projects = [
       { name: "Pusher" },
       { name: "Auth0,..." },
     ],
-    image: "/asset/ticket-system.png",
-    live: "https://tasketES.vercel.app/",
+    image: "/asset/ticket-system.jpg",
+    live: "https://ticket-system-one-steel.vercel.app/login",
     github: "https://github.com/TrungNguyen1811/ticket-system",
   },
   {
