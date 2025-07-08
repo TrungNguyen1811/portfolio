@@ -19,6 +19,26 @@ const projects = [
   {
     num: "01",
     category: "Front-end",
+    title: "Ticket System",
+    description:
+      "Built a web-based ticket management system to handle client requests, assign tasks, and track issue resolution.",
+    stack: [
+      { name: "Html/css" },
+      { name: "Tailwindcss" },
+      { name: "Shadcn/ui" },
+      { name: "Lexical" },
+      { name: "React" },
+      { name: "Typescript" },
+      { name: "Pusher" },
+      { name: "Auth0,..." },
+    ],
+    image: "/asset/ticket-system.png",
+    live: "https://tasketES.vercel.app/",
+    github: "https://github.com/TrungNguyen1811/ticket-system",
+  },
+  {
+    num: "02",
+    category: "Front-end",
     title: "BConnect Website",
     description:
       "Building a web-based platform to socialize, exchange, buy and sell books for the book-loving community.",
@@ -36,7 +56,7 @@ const projects = [
     github: "https://github.com/TrungNguyen1811/b-connect",
   },
   {
-    num: "02",
+    num: "03",
     category: "Front-end",
     title: "BRental Website",
     description:
@@ -55,7 +75,7 @@ const projects = [
     github: "https://github.com/blackmouse572/book-rent",
   },
   {
-    num: "03",
+    num: "04",
     category: "Front-end",
     title: "Messenger Clone",
     description:
@@ -75,7 +95,7 @@ const projects = [
     github: "https://github.com/TrungNguyen1811/messenger-clone",
   },
   {
-    num: "04",
+    num: "05",
     category: "Front-end",
     title: "NextJs Dashboard",
     description: "Building a simplified version of the financial dashboard.",
@@ -92,7 +112,7 @@ const projects = [
     github: "https://github.com/TrungNguyen1811/NextJsDashboard",
   },
   {
-    num: "05",
+    num: "06",
     category: "Front-end",
     title: "Portfolio",
     description:
@@ -112,7 +132,7 @@ const projects = [
     github: "https://github.com/TrungNguyen1811/portfolio",
   },
   {
-    num: "06",
+    num: "07",
     category: "Full-stack",
     title: "Charity",
     description: "Charity.",
@@ -122,7 +142,7 @@ const projects = [
     github: "",
   },
   {
-    num: "07",
+    num: "08",
     category: "Full-stack",
     title: "E-learning",
     description: "E-learning.",

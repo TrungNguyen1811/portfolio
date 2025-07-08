@@ -58,6 +58,26 @@ const experience = {
   description: "",
   items: [
     {
+      company: "Enable Startup Company",
+      position: "Seller/Designer/Content Creator",
+      duration: "May 2025 – Jun 2025",
+    },
+    {
+      company: "Tyo Company",
+      position: "Seller/Designer/Content Creator",
+      duration: "Jan 2025 – Apr 2025",
+    },
+    {
+      company: "DSmart Company",
+      position: "WordPress/Php Developer",
+      duration: "Nov 2024 – Jan 2025",
+    },
+    {
+      company: "Apps Cyclone",
+      position: "Front-end Developer",
+      duration: "Aug 2024 – Nov 2024",
+    },
+    {
       company: "Fpt Software",
       position: "Full Stack Developer",
       duration: "Jan 2023 - Aril 2023",
